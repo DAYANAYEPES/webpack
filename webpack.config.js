@@ -40,16 +40,16 @@ module.exports = {
         test: /\.html$/i,
         loader: 'html-loader',
         options: {
-          sources: {
+          attributes: {
             list: [
               {
                 tag: 'img',
                 attribute: 'src',
-                type: 'src'
-              }
-            ]
-          }
-        }
+                type: 'src',
+              },
+            ],
+          },
+        },
       }
     ]
   },
