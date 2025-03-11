@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/DAYANAYEPES/webpack.git"
+        "url": "git+https://github.com/DAYANAYEPES/webpack.git"
     },
     "keywords": [],
     "author": "",
@@ -17,8 +17,12 @@
         "url": "https://github.com/DAYANAYEPES/webpack.git"
     },
     "homepage": "https://github.com/DAYANAYEPES/webpack.git",
-    "description": "",
     "dependencies": {
         "express": "^4.21.2"
-    }
+    },
+    "devDependencies": {
+        "webpack": "^5.98.0",
+        "webpack-cli": "^6.0.1"
+    },
+    "description": ""
 }
