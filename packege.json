@@ -1,21 +1,22 @@
 {
-    "name": "2da-prueba",
-    "version": "1.0.0",
-    "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/DAYANAYEPES/webpack.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/DAYANAYEPES/webpack.git"
-    },
-    "homepage": "https://github.com/DAYANAYEPES/webpack.git",
-    "description": ""
-  }
+  "name": "2da-prueba",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "webpack" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DAYANAYEPES/webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DAYANAYEPES/webpack.git"
+  },
+  "homepage": "https://github.com/DAYANAYEPES/webpack.git",
+  "description": ""
+}

@@ -5,8 +5,7 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/main.js',
-    style: './src/assets/styles.css',
-
+    style: './src/assets/styles.css'
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -16,27 +15,26 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',
-    }),
+      template: './src/index.html'
+    })
   ],
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true,
+    clean: true
   },
   module: {
     rules: [
       {
         test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
-
+        use: ['style-loader', 'css-loader']
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
         generator: {
-          filename: 'assets/images/[name][ext]',
-        },
+          filename: 'assets/images/[name][ext]'
+        }
       },
       {
         test: /\.html$/i,
@@ -47,16 +45,15 @@ module.exports = {
               {
                 tag: 'img',
                 attribute: 'src',
-                type: 'src',
-              },
-            ],
-          },
-        },
-      },
-
-    ],
+                type: 'src'
+              }
+            ]
+          }
+        }
+      }
+    ]
   },
   optimization: {
-    runtimeChunk: 'single',
-  },
+    runtimeChunk: 'single'
+  }
 };
