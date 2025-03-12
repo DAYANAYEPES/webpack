@@ -3,17 +3,26 @@ name: Build and Deploy to Azure Web App
 on:
   push:
     branches:
-      - develop
+      - develop # or your deployment branch
+  pull_request:
+    branches:
+      - develop 
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '22' # or the version your project requires
+
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: npm install
 
       - name: Build the project
         run: npm run build
