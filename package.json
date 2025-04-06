@@ -25,6 +25,7 @@
     "style-loader": "^3.3.1",
     "stylelint": "^14.16.1",
     "stylelint-config-standard": "^25.0.0",
+    "stylelint-csstree-validator": "^3.0.0",
     "stylelint-order": "^6.0.4",
     "stylelint-scss": "^4.1.0",
     "webpack": "^5.98.0",
