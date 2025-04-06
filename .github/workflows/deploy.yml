@@ -27,6 +27,9 @@ jobs:
       - name: Build the project
         run: npm run build
 
+      - name: Esperar para evitar conflicto con Azure
+        run: sleep 30
+
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
