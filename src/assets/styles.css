@@ -13,8 +13,8 @@ body::before {
   background-size: cover;
   z-index: -1;
   background-image:
-    linear-gradient(115deg, rgb(54 178 235 / 50%), rgb(9 86 228 / 50%)),
-    url("logo.png");
+  linear-gradient(115deg, rgb(54 178 235 / 50%), rgb(9 86 228 / 50%)),
+  url("./mountain-9423779_1280.webp");
   background-repeat: no-repeat;
   background-position: center;
 }
