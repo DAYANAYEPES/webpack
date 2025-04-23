@@ -18,8 +18,12 @@ Deployment
 🙏 Acknowledgements
 ❓ FAQ (OPTIONAL)
 📝 License
+
+
 📖 [Formulario SENA ]
 [Formulario SENA] Es un formulario que permite recopilar de los encuestados si tienen planes a futuro para la compra de un carro, la marca y si cuenta con vehiculo actualmente, es un formulario muy sencillo e interactivo para las personas.
+
+
 
 Tech Stack
 HTML
@@ -36,15 +40,19 @@ Key Features
 [Webpack Bundling ]
 (back to top)
 
+
 🚀 Live Demo
 Live Demo Link
 (back to top)
 
+
 💻 Getting Started
 To get a local copy up and running, follow these steps.
 
+
 Prerequisites
 To run this project you need the following tools:
+
 
 [VS Code ]
 [Git and GitHub ]
@@ -54,9 +62,12 @@ To run this project you need the following tools:
 Setup
 Clone this repository to your desired folder:
 
+
  cd FORMULARIO_SENA2
  git clone 
 https://github.com/DAYANAYEPES/webpack
+
+
 Install
 Install this project with:
 
