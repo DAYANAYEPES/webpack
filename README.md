@@ -56,7 +56,7 @@ Clone this repository to your desired folder:
 
  cd FORMULARIO_SENA2
  git clone 
- https://github.com/BryanMBS/FORMULARIO_SENA2.git
+https://github.com/DAYANAYEPES/webpack
 Install
 Install this project with:
 
